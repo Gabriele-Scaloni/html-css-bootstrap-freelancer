@@ -1,44 +1,54 @@
-* {
+/* * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+ */
 
-.rowheader {
-    color: white;
-    background-color: rgb(41, 41, 134);
+/*  #header{
+     background-color: rgb(17, 41, 94);
+     min-height: 50px;
+     max-height: 120px;
+     padding: 0 20px;
+ } */
+
+.ul-menu{
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
 }
 
-.jumbotron {
+a {
+    color: white;
+}
+
+
+.jumbotron, .about{
     height: auto;
     background-color: rgb(68, 236, 236);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
-.imgjumbo {
-    background-color: whitesmoke;
-    height: 200px;
+
+ .immagine {
+    max-height: 250px;
+    max-width: 100%;
+    margin-bottom: 20px;
 }
 
-.immagine {
-    background-color: tomato;
-    min-width: 250px;
-    height: 250px;
-    border: 2px solid white;
-}
-.margin{
-    margin: 10px auto; 
+.imgjumbo{
+ background-color: rgb(68, 236, 236);
 }
 
-.row.about, .row.contact{
-    height: 200px;
-    background-color: blueviolet;
-    border: 2px solid black;
-}
 .titolo-about, .footer-about {
     height: 50px;
-    background-color: blueviolet;
-    border: 2px solid black;
 }
+
+.description-about{
+    padding: 0 20px;
+}
+
 footer {
     border: 2px solid grey;
 }
