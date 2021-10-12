@@ -12,7 +12,7 @@
      padding: 0 20px;
  } */
 
-.ul-menu{
+.ul-menu {
     display: flex;
     justify-content: flex-end;
     flex-grow: 1;
@@ -23,7 +23,7 @@ a {
 }
 
 
-.jumbotron, .about{
+.jumbotron, .about {
     height: auto;
     background-color: rgb(68, 236, 236);
     padding-bottom: 20px;
@@ -33,32 +33,46 @@ a {
 
  .immagine {
     max-height: 250px;
-    max-width: 100%;
+    max-width:100%;
     margin-bottom: 20px;
 }
 
-.imgjumbo{
- background-color: rgb(68, 236, 236);
+.rounded.imgjumbo {
+    max-width:200px;
+    background-color: rgb(68, 236, 236);
 }
 
 .titolo-about, .footer-about {
     height: 50px;
 }
 
-.description-about{
+.description-about {
     padding: 0 20px;
 }
 
+.button-download{
+    color: white;
+    border: 1px solid white;
+    background-color: rgb(68, 236, 236);
+    width: auto;
+}
+
+.btn.btn-success.btn-send {
+    margin-top: 50px;
+    background-color:  rgb(68, 236, 236);
+}
+
 footer {
+
     border: 2px solid grey;
 }
 
-.footer-top{
+.footer-top {
     background-color: rgb(38, 1, 65);
     height: 300px;
 }
 
-.footer-bottom{
+.footer-bottom {
     height: 100px;
     background-color: rgb(56, 56, 56);
 }
